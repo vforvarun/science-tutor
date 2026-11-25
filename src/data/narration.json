@@ -1,0 +1,182 @@
+{
+ "voice": "bf_emma",
+ "files": {
+  "nervous": [
+   "nervous-0-0b4ab25a.m4a",
+   "nervous-1-36787d49.m4a",
+   "nervous-2-99f144cc.m4a",
+   "nervous-3-d251c35b.m4a",
+   "nervous-4-c851d172.m4a",
+   "nervous-5-91d4a33f.m4a"
+  ],
+  "hormones": [
+   "hormones-0-424448d1.m4a",
+   "hormones-1-c28a6aae.m4a",
+   "hormones-2-b10dee2b.m4a",
+   "hormones-3-abf56c8d.m4a",
+   "hormones-4-9e1e428e.m4a"
+  ],
+  "immunity": [
+   "immunity-0-e3be011e.m4a",
+   "immunity-1-d42e684b.m4a",
+   "immunity-2-0cc08aad.m4a",
+   "immunity-3-2dc9b6ea.m4a",
+   "immunity-4-617b5558.m4a"
+  ],
+  "ecosystems": [
+   "ecosystems-0-cc658d57.m4a",
+   "ecosystems-1-0793ef42.m4a",
+   "ecosystems-2-799b9595.m4a",
+   "ecosystems-3-1f5ba920.m4a",
+   "ecosystems-4-8c3c3c2f.m4a"
+  ],
+  "dna": [
+   "dna-0-08c40d8a.m4a",
+   "dna-1-daddfdf1.m4a",
+   "dna-2-64cc7101.m4a",
+   "dna-3-5c169926.m4a",
+   "dna-4-ecb7f098.m4a",
+   "dna-5-c10733fb.m4a"
+  ],
+  "inheritance": [
+   "inheritance-0-34e50e61.m4a",
+   "inheritance-1-564bf2e6.m4a",
+   "inheritance-2-4496e656.m4a",
+   "inheritance-3-d1ec554e.m4a",
+   "inheritance-4-4599f545.m4a"
+  ],
+  "evolution": [
+   "evolution-0-a16833f4.m4a",
+   "evolution-1-3934c24a.m4a",
+   "evolution-2-a1714227.m4a",
+   "evolution-3-95308163.m4a",
+   "evolution-4-a85860ca.m4a"
+  ],
+  "atoms": [
+   "atoms-0-0c4114b4.m4a",
+   "atoms-1-8234329a.m4a",
+   "atoms-2-7e80dba0.m4a",
+   "atoms-3-dca3c9e1.m4a",
+   "atoms-4-7a2f30dd.m4a"
+  ],
+  "radioactivity": [
+   "radioactivity-0-ec6fbbe3.m4a",
+   "radioactivity-1-16c3918e.m4a",
+   "radioactivity-2-a1c03f9f.m4a",
+   "radioactivity-3-a12d4ea5.m4a",
+   "radioactivity-4-1741b3eb.m4a"
+  ],
+  "reactions": [
+   "reactions-0-bfa2acb1.m4a",
+   "reactions-1-af71520b.m4a",
+   "reactions-2-e28f8e1b.m4a",
+   "reactions-3-769d16f0.m4a",
+   "reactions-4-b9da4d91.m4a"
+  ],
+  "acids": [
+   "acids-0-084a080c.m4a",
+   "acids-1-5288c0f1.m4a",
+   "acids-2-b67a8a93.m4a",
+   "acids-3-a446cbdf.m4a",
+   "acids-4-99fd6de1.m4a"
+  ],
+  "periodic": [
+   "periodic-0-158a08d0.m4a",
+   "periodic-1-78a52e04.m4a",
+   "periodic-2-1b13fa0e.m4a",
+   "periodic-3-95b3f85e.m4a",
+   "periodic-4-1fcac93d.m4a"
+  ],
+  "bonding": [
+   "bonding-0-e232dde1.m4a",
+   "bonding-1-fb404e3a.m4a",
+   "bonding-2-cf3265a2.m4a",
+   "bonding-3-18ab6467.m4a",
+   "bonding-4-5dcda06b.m4a"
+  ],
+  "rates": [
+   "rates-0-b68f049f.m4a",
+   "rates-1-85db2286.m4a",
+   "rates-2-ba94469b.m4a",
+   "rates-3-6ac9081d.m4a",
+   "rates-4-8d9c7d1d.m4a"
+  ],
+  "heat": [
+   "heat-0-939f1944.m4a",
+   "heat-1-345b1420.m4a",
+   "heat-2-2c8c25b9.m4a",
+   "heat-3-8e13f95b.m4a",
+   "heat-4-56d7d4f5.m4a"
+  ],
+  "waves": [
+   "waves-0-628d73a6.m4a",
+   "waves-1-92c65a08.m4a",
+   "waves-2-20c3e127.m4a",
+   "waves-3-08009922.m4a",
+   "waves-4-f1d25304.m4a"
+  ],
+  "electricity": [
+   "electricity-0-f532afe9.m4a",
+   "electricity-1-801d097b.m4a",
+   "electricity-2-5abbc387.m4a",
+   "electricity-3-aa0c1caf.m4a",
+   "electricity-4-6161cbd1.m4a"
+  ],
+  "motion": [
+   "motion-0-c3e39702.m4a",
+   "motion-1-bb78c2e0.m4a",
+   "motion-2-4d57881c.m4a",
+   "motion-3-c138b683.m4a",
+   "motion-4-81bd63b3.m4a"
+  ],
+  "forces": [
+   "forces-0-5e5778e3.m4a",
+   "forces-1-0bb565f0.m4a",
+   "forces-2-0daf8740.m4a",
+   "forces-3-ca14777c.m4a",
+   "forces-4-1423116b.m4a"
+  ],
+  "energy": [
+   "energy-0-d03d89bc.m4a",
+   "energy-1-17592163.m4a",
+   "energy-2-85eccddd.m4a",
+   "energy-3-7edc9beb.m4a",
+   "energy-4-a0aeed34.m4a"
+  ],
+  "tectonics": [
+   "tectonics-0-e5d1ab07.m4a",
+   "tectonics-1-120ae2a5.m4a",
+   "tectonics-2-ab513872.m4a",
+   "tectonics-3-fa9f3ed0.m4a",
+   "tectonics-4-cb462fe3.m4a"
+  ],
+  "universe": [
+   "universe-0-c9191cf0.m4a",
+   "universe-1-990ff2c7.m4a",
+   "universe-2-e75028aa.m4a",
+   "universe-3-9c306838.m4a",
+   "universe-4-b3ea88ef.m4a"
+  ],
+  "climate": [
+   "climate-0-120ceb2d.m4a",
+   "climate-1-ca52177e.m4a",
+   "climate-2-f168503d.m4a",
+   "climate-3-563663fb.m4a",
+   "climate-4-76b045d0.m4a"
+  ],
+  "inquiry": [
+   "inquiry-0-1e3ca3d0.m4a",
+   "inquiry-1-19c7db57.m4a",
+   "inquiry-2-3fe9c6f8.m4a",
+   "inquiry-3-b61524a9.m4a",
+   "inquiry-4-3c287237.m4a"
+  ],
+  "data": [
+   "data-0-860908d3.m4a",
+   "data-1-f179ce77.m4a",
+   "data-2-5ff2bc52.m4a",
+   "data-3-c79129db.m4a",
+   "data-4-d0f4a99f.m4a"
+  ]
+ }
+}

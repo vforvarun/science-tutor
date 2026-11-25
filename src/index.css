@@ -1,0 +1,123 @@
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+@theme {
+  --font-display: 'Fredoka', ui-rounded, system-ui, sans-serif;
+  --font-sans: 'Lexend', system-ui, sans-serif;
+
+  --color-cream: #f8f7ff;
+  --color-paper: #ffffff;
+  --color-ink: #1d1b3a;
+  --color-ink-soft: #5d5a7a;
+  --color-line: #e9e6f5;
+
+  --color-violet: #6246ea;
+  --color-violet-deep: #4b2bd1;
+  --color-violet-soft: #ece8ff;
+  --color-coral: #ff6b6b;
+  --color-coral-deep: #e04848;
+  --color-coral-soft: #ffe5e5;
+  --color-mint: #2ec4b6;
+  --color-mint-deep: #138a7f;
+  --color-mint-soft: #d9f6f3;
+  --color-sun: #ffbe0b;
+  --color-sun-deep: #a87700;
+  --color-sun-soft: #fff3cc;
+  --color-sky: #3a86ff;
+  --color-sky-soft: #e1ecff;
+  --color-pink: #f15bb5;
+  --color-pink-soft: #fde4f3;
+
+  --shadow-card: 0 1px 2px rgb(29 27 58 / 0.04), 0 10px 28px -14px rgb(29 27 58 / 0.22);
+  --shadow-lift: 0 2px 4px rgb(29 27 58 / 0.06), 0 22px 44px -18px rgb(29 27 58 / 0.32);
+}
+
+html,
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 0% 0%, rgb(98 70 234 / 0.09), transparent 36%),
+    radial-gradient(circle at 100% 10%, rgb(46 196 182 / 0.08), transparent 30%),
+    radial-gradient(rgb(98 70 234 / 0.07) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-attachment: fixed;
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.005em;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.card {
+  background: var(--color-paper);
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-card);
+  border: 1px solid rgb(233 230 245 / 0.8);
+}
+
+.lift {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.lift:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lift);
+}
+.lift:active {
+  transform: translateY(0) scale(0.99);
+}
+
+/* Strand gradients */
+.hue-biology { background: linear-gradient(135deg, #5ee08a, #12a15a); }
+.hue-chemistry { background: linear-gradient(135deg, #b38cff, #6a3fe0); }
+.hue-physics { background: linear-gradient(135deg, #6aa8ff, #2f63f0); }
+.hue-earth { background: linear-gradient(135deg, #ffc65c, #f07c1c); }
+.hue-skills { background: linear-gradient(135deg, #ff9ad5, #d03f9c); }
+.hue-warm { background: linear-gradient(135deg, #ffb26b, #ff6b4a); }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgb(98 70 234 / 0.45); }
+  100% { box-shadow: 0 0 0 20px rgb(98 70 234 / 0); }
+}
+.pulse { animation: pulse-ring 1.3s ease-out infinite; }
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+.wiggle { animation: wiggle 0.4s ease; }
+
+.prose-lesson p { margin: 0.6rem 0; line-height: 1.7; }
+.prose-lesson strong { color: var(--color-violet-deep); font-weight: 700; }
+.katex { font-size: 1.08em; }
+.katex-display { margin: 0.6rem 0; overflow-x: auto; overflow-y: hidden; padding: 0.2rem 0; }
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; }
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }
+
+svg text { font-family: var(--font-sans); }
+
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  .card { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; }
+}
